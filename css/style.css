@@ -1,0 +1,370 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset css */
+
+/* my production */
+
+body {
+  position: relative;
+  color: #fff;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+.contentTitle {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.mg-L {
+  margin-left: 10px;
+}
+
+/* .header */
+
+body a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body a:hover {
+  color: darkorange;
+}
+
+body * {
+  letter-spacing: 1px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #004466;
+  padding: 15px;
+}
+
+.profile {
+  display: flex;
+  color: #fff;
+}
+
+h1.myName {
+  font-size: 30px;
+}
+
+.box {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+h2.jobTitle {
+  margin-top: 15px;
+}
+
+.mugShot {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.socialAccount {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.socialAccount a {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* .content */
+
+.content-title-style {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.content-gobal-style {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  line-height: 1.4rem;
+  /* background-color: #b7b7bd; */
+  background-color: rgba(50, 200, 150, 0.3);
+  color: #000;
+  font-weight: bolder;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+.content > * {
+  border: 1px solid #000;
+}
+
+.content-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.personalProfile {
+  padding: 10px;
+}
+
+.content-20 {
+  width: 20%;
+}
+.content-80 {
+  width: 80%;
+}
+
+/* Q2. content - myExperience */
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-1-center {
+  text-align: center;
+}
+
+.myphoneImg {
+  width: 400px;
+}
+
+.project-myphone {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.project-myphone a {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(../img/singup.png);
+  text-indent: 150%;
+  width: 900px;
+  height: 450px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-position: center center;
+}
+
+.spical-word {
+  color: rgb(50, 100, 255);
+}
+
+.spical-word-relax {
+  color: rgb(0, 130, 100);
+}
+
+/* Q3 Plan & Q4 table */
+
+.myPlanContent h2 {
+  text-align: center;
+}
+
+.myPlanTable h2,
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1.5px solid #000;
+}
+
+.dreamCompanyTable {
+  margin-top: 15px;
+}
+
+.dreamCompanyTable th,
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1.5px solid #000;
+}
+
+.myPlanContent > * {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.dreamCompanyContent > * {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.dreamCompanyTable td a:hover {
+  color: #fff;
+}
+
+.myDreamComapnyTitle {
+  margin-right: 120px;
+}
+
+.textL {
+  text-align: left;
+}
+
+/* Q4 dream company */
+.toTop {
+  display: block;
+  position: fixed;
+  right: 5px;
+  bottom: 15px;
+  /* color: red; */
+}
+
+.toTop:hover {
+  transition: all 0.8s;
+  background-color: aquamarine;
+  display: block;
+  position: fixed;
+  right: 5px;
+  bottom: 15px;
+  /* color: red; */
+}
+
+p.contentbox {
+  letter-spacing: 1.5px;
+  line-height: 1.9;
+  padding: 15px;
+}
